@@ -39,7 +39,7 @@ class Triangle implements Shape {
         return 0.5 * base * height;
     }
 }
-
+ 
 public class Main {
     public static void main(String[] args) {
 
