@@ -4,7 +4,7 @@ class Checkforstraightline3CLC {
         if (coordinates.length <= 2) {
             return true;
         }
-        
+         
         // Get the initial differences using the first two points
         int x0 = coordinates[0][0];
         int y0 = coordinates[0][1];

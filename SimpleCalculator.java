@@ -8,7 +8,7 @@ public class SimpleCalculator extends Frame implements ActionListener {
 
     SimpleCalculator() {
         setLayout(new FlowLayout());
-        add(t1); add(t2); add(b); add(l);
+        add(t1); add(t2); add(b); add(l); 
         b.addActionListener(this);
         setSize(250,150);
         setVisible(true);

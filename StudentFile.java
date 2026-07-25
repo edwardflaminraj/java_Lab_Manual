@@ -32,7 +32,7 @@ public class StudentFile {
         BufferedReader br = new BufferedReader(new FileReader("students.txt"));
 
         System.out.println("\nStudent Records");
-        String line;
+        String line; 
 
         while ((line = br.readLine()) != null) {
             System.out.println(line);

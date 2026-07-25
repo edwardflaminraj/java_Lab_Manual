@@ -5,7 +5,7 @@ public class UndergroundSystem {
     HashMap<Integer, String> station = new HashMap<>();
     HashMap<Integer, Integer> time = new HashMap<>();
 
-     HashMap<String, Integer> total = new HashMap<>();
+     HashMap<String, Integer> total = new HashMap<>(); 
     HashMap<String, Integer> count = new HashMap<>();
 
     public UndergroundSystem() {

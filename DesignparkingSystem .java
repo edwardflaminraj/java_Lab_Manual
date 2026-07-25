@@ -14,7 +14,7 @@ public class DesignparkingSystem {
             parking[carType]--;
             return true;
         }
-        return false;
+        return false; 
     }
 }
 public class DesignparkingSystem {

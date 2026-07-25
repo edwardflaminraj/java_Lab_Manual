@@ -78,7 +78,7 @@ public class StudentRecordSystem {
         System.out.println();
         System.out.println("After Removing First Student");
         System.out.println();
-        printTable(studentList);
+        printTable(studentList); 
 
         LinkedHashMap<Integer, Student> studentMap = new LinkedHashMap<>();
         for (Student s : studentList) {

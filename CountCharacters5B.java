@@ -5,7 +5,7 @@ public class CountCharacters5B {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
-        String s = sc.nextLine();
+        String s = sc.nextLine(); 
 
         int v = 0, c = 0, d = 0, sp = 0;
 

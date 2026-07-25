@@ -41,7 +41,7 @@ public class GenericDemo {
 
         return max;
     }
-
+ 
     public static void main(String[] args) {
 
         // Integer Box

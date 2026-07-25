@@ -32,7 +32,7 @@ public class Printinorder {
 
     private Semaphore sem1= new Semaphore(0);
     private Semaphore sem2= new Semaphore(0);
-   
+    
         
     
 

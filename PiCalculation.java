@@ -29,7 +29,7 @@ public class PiCalculation {
         Scanner sc = new Scanner(System.in);
         System.out.println("=== Pi Calculator using Access Specifiers ===");
         System.out.print("Enter the number of terms for Pi approximation: ");
-        int terms = sc.nextInt();
+        int terms = sc.nextInt(); 
 
         PiCalculator obj = new PiCalculator(terms);
 

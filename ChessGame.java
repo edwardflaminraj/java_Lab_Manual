@@ -9,7 +9,7 @@ class ChessGameA {
         {'.','.','.','.','.','.','.','.'},
         {'P','P','P','P','P','P','P','P'},
         {'R','N','B','Q','K','B','N','R'}
-    };
+    }; 
 
     void displayBoard() {
         for (int i = 0; i < 8; i++) {
