@@ -1,4 +1,4 @@
-class ChessGame {
+class ChessGameA {
 
     char[][] board = {
         {'r','n','b','q','k','b','n','r'},

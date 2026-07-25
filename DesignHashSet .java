@@ -1,31 +1,25 @@
-public class DesignHashSet {
+class MyHashSet {
     private boolean[] set;
 
-    public DesignHashSet() {
-        // Create an array large enough to cover the max key range (0 to 1,000,000)
+    public MyHashSet() {
+        // The constraints state 0 <= key <= 10^6.
+        // We need an array of size 1,000,001 to include index 1,000,000.
         set = new boolean[1000001];
     }
-    
+
     public void add(int key) {
-        // Mark the index as present
+        // Mark the key as present
         set[key] = true;
     }
-    
+
     public void remove(int key) {
-        // Mark the index as absent
+        // Mark the key as not present
+        // If the key was never added, setting it to false has no negative effect
         set[key] = false;
     }
-    
+
     public boolean contains(int key) {
-        // Return whether the key exists at index
+        // Return whether the key is present
         return set[key];
     }
 }
-
-/**
- * Your MyHashSet object will be instantiated and called as such:
- * MyHashSet obj = new MyHashSet();
- * obj.add(key);
- * obj.remove(key);
- * boolean param_3 = obj.contains(key);
- */
